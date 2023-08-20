@@ -1,0 +1,9 @@
+// Defanging an IP Address
+// leetcode Solution
+
+
+class Solution {
+    public String defangIPaddr(String address) {
+        return address.replace(".","[.]");
+    }
+}
